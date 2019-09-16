@@ -45,6 +45,17 @@ O módulo de Programa de Férias foi desenvolvido para a atender ao seguinte cas
 7. O valor de cada parcela gerada. Calculado automaticamente com base nos valores informados nos campos _7_ e _8_
 8. O valor total do carnê. Calculado automaticamente com base nos valores informados nos campos _6_ e _7_
 
+
+A partir da versão 0289.01, novos campos foram adicionados na tela de cadastro de Série, campos esses usados na impressão dos carnês;
+
+![Figura 2.1. Novos campos na tela de cadastro de série de programa de férias][spf2]
+
+O valor informado nesses campos é usado na impressão de carnês, em mesma numeração e ordem conforme a imagem a seguir:
+
+![Figura 2.2. Impressão de carnê][carne]
+
+---
+
 ![Figura 3. Tela de cadastro de Série de programa de férias - aba Sorteios][spf_sorteios]
 
 1. Os números para sorteio serão gerados a partir do valor informado neste campo
@@ -171,3 +182,5 @@ Como resultado, o lançamento em conta aparece no controle de caixa no Portal, c
 [lpfvenda]: http://conhecimento.esolution.com.br/wp-content/uploads/2019/08/lpfnovavenda.png
 [tarefa_abertura]: http://conhecimento.esolution.com.br/wp-content/uploads/2019/08/tarefa_abrir_conta.png
 [tarefa_lancamento]: http://conhecimento.esolution.com.br/wp-content/uploads/2019/08/tarefa_lancar_conta.png
+[spf2]: http://conhecimento.esolution.com.br/wp-content/uploads/2019/09/2019-09-16-11_26_21-Window.png
+[carne]: http://conhecimento.esolution.com.br/wp-content/uploads/2019/09/2019-09-16-11_21_05-Window.png
