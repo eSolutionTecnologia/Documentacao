@@ -22,7 +22,7 @@ O módulo de Programa de Férias foi desenvolvido para a atender ao seguinte cas
 #### Programa de férias -> Cadastros -> Série de programa de férias
 * Permissões para editar, excluir, imprimir e inserir
 
-![](images/serie-programa-ferias.png)
+![](http://conhecimento.esolution.com.br/wp-content/uploads/2019/10/serie-programa-ferias.png)
 
 1. Identificador da série (preenchido automaticamente)
 2. Código da série (preenchido automaticamente ou manualmente, dependendo de configuração prévia de código. Códigos numéricos de até dois dígitos serão usados para a geração do número do cartão de consumo)
@@ -38,9 +38,9 @@ O módulo de Programa de Férias foi desenvolvido para a atender ao seguinte cas
 
 Os campos 6, 7 e 8 são exibidos na impressão do carnê conforme a seguinte imagem:
 
-![](images/carne.png)
+![](http://conhecimento.esolution.com.br/wp-content/uploads/2019/09/2019-09-16-11_21_05-Window.png)
 
-![](images/serie-programa-ferias-financeiro.png)
+![](http://conhecimento.esolution.com.br/wp-content/uploads/2019/10/serie-programa-ferias-financeiro.png)
 
 1. Cliente que será informado nos recebimentos e boletos gerados que ainda não foram vendidos ao cliente final.
 2. A operação financeira que será usada para gerar os recebimentos dos carnês. É limitado apenas à operações que não contabilizem no lançamento, pois é desejável gerar contabilização apenas de carnês vendidos.
@@ -52,18 +52,18 @@ Os campos 6, 7 e 8 são exibidos na impressão do carnê conforme a seguinte ima
 
 Ao alterar a quantidade de parcelas (campo _5_). Toda a cadeia de progressão de crédito será atualizada de acordo com a quantidade de parcelas informada. Uma notificação será exibida comunicando o usuário da alteração.
 
-![](images/serie-programa-ferias-sorteio.png)
+![](http://conhecimento.esolution.com.br/wp-content/uploads/2019/10/serie-programa-ferias-sorteio.png)
 
 1. Os números para sorteio serão gerados a partir do valor informado neste campo
 2. A quantidade de números para sorteio gerados para cada carnê. Esses números são pré-gerados no momento da conclusão da série e, por isso, quanto maior o valor informado nesse campo, mais tempo levará a conclusão da série.
 3. A quantidade de números que será gerada para cada carnê
 4. A quantidade de dígito em cada número gerado. Tem como finalidade a formatação desses números na impressão dos carnês
 
-![](images/serie-programa-ferias-progressao.png)
+![](http://conhecimento.esolution.com.br/wp-content/uploads/2019/10/serie-programa-ferias-progressao.png)
 
 As parcelas desta aba são preenchidas de acordo com a quantidade de parcelas informada na aba `Financeiro`. O campo `Percentual liberado` é editável e já começa com valores percentuais lineares preenchidos.
 
-![](images/serie-programa-ferias-liberacao.png)
+![](http://conhecimento.esolution.com.br/wp-content/uploads/2019/10/serie-programa-ferias-liberacao.png)
 
 Configurar a quantidade de dias para liberação de crédito de acordo com a `Finalizadora` do Tipo de contas a receber de cada parcela do carnê, conforme desejado. Uma quantidade de dias igual a 180, significa que após 180 dias do pagamento de uma parcela com a finalizadora informada a conta de consumo será aberta e os valores serão lançados.
 
@@ -103,7 +103,7 @@ Para lançar uma nova venda, selecionar o carnê e escolher a opção _Lançar v
 
 Clicar duas vezes num carnê abre uma tela com mais informações de um carnê específico
 
-![](images/carne.png)
+![](http://conhecimento.esolution.com.br/wp-content/uploads/2019/10/carne.png)
 
 1. Identificador único do carnê
 2. Status do carnê, pode apresentar os seguintes valores:
@@ -122,7 +122,7 @@ Clicar duas vezes num carnê abre uma tela com mais informações de um carnê e
 
 Nesta tela é possível consultar os números para sorteio gerados para o carnê em específico.
 
-![](images/carne-financeiro.png)
+![](http://conhecimento.esolution.com.br/wp-content/uploads/2019/10/carne-financeiro.png)
 
 Nesta tela é possível visualizar e efetuar baixas/renegociações do financeiro do carnê. Está disponível apenas para usuários que possuem a permissão de visualizar financeiro. A opção de baixar é habilitada apenas em carnês vendidos. Ao clicar em `Baixar` a tela de baixa padrão de contas a receber é carregada com todas as parcelas pendentes do carnê. Seu funcionamento está além do escopo desta documentação, visto que é uma tela pertencente ao módulo financeiro.
 
