@@ -25,6 +25,11 @@ Sendo:
 4. **Bandeira**: Esse campo já possui um pré-cadastro de diversas bandeiras, feito pelo sistema. Deverá ser informada a mesma bandeira do registro no arquivo de conciliação. No exemplo deste artigo, deverá ser informado `Visa`.
 
   Toda combinação de bandeira e modalidade deve ser cadastrada como um tipo de contas a receber para cada finalizadora utilizada. Caso o sistema não encontre um tipo de contas a receber que atenda o informado no registro do arquivo de conciliação, ele não alterará o tipo de conta a receber na parcela. Caso o sistema encontre mais de um tipo de conta a receber para a mesma configuração, o primeiro encontrado será utilizado.
+  
+### Configuração no cadastro de financeira
+  Para o recurso de alteração de tipo funcionar corretamente, será necessário configurar no cadastro da(s) Financeira(s) o campo `Código da adquirente`. O sistema localizará apenas tipos de contas a receber com Financeira vinculada que este código esteja preenchido de acordo com o arquivo de conciliação de cartões. (Em arquivos da Cielo, sempre localizará Financeira com Código de adquirente `CIELO`.
+  
+![](https://i.imgur.com/Yr10my0.png)
 
 
 ## Atualização de valor
